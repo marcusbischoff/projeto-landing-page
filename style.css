@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width:auto;
+   
+}
+#logo{
+    margin: 30px;
+    width: 100px;
+}
+#titulo-menusuperior {
+    margin-left: 125px;
+    margin-top: 25px;
+    
+}
+#texto-menusuperior{
+    margin-left: 125px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#cabecalho{
+    display: grid;
+    padding-bottom: 50px;
+    background-image:url(imagens/fundo-menusuperior.svg);
+    color: antiquewhite;
+    grid-auto-flow:row;
+    -ms-grid-row-align: center;
+    background-size: cover;
+    
+}
+#menu-informativo{
+    display: grid;
+    background-color: #9898997d;
+    color: black;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    
+}
+.icon{
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+}
+.texto-informativosup{
+    display: flex;
+    align-items: center;
+}
+#titulo-video{
+    color:#247BA0;
+    margin: 50px 25px 10px 25px;
+}
+#secao-video{
+    display: grid;
+    background-color: #eaecee;
+    color: black;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    
+}
+#texto-video{
+    margin: 0px 25px 10px 25px;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+#carrossel{
+    background-color:#247BA0;
+    padding: 50px;
+    
+}
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+#cards{
+    display:grid;
+    grid-auto-flow: column;
+   
+    
+}
+.card{
+    
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#seta-esquerda{
+    display: none;
+}
+#samantha{
+    display: none;
+}
+.seta{
+    width: auto;
+    margin-top:55%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+#secao-form{
+    text-align: center;
+}
+#titulo-form{
+    font-size:25px ;
+    margin: 25px;
+    color: #383838;
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 30px;
+    padding-left:10px ;
+}
+button{
+    background-color:#247BA0 ;
+    height: 40px;
+    width: 250px;
+    color: #eaece5;
+    border: 0px;
+    border-radius:30px ;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #32a6d7;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #011b26;
+    transition-duration: 0.5s;
+}
